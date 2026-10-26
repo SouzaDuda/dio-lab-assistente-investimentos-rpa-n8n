@@ -3,7 +3,7 @@
 ## Descrição
 
 ```
-Estou tendo problemas para a instalação local do n8n, até dia 31 corrijo corretamente.
+Estou tendo problemas em relação ao n8n principalmente em relação ao processamento, até dia 31 corrijo corretamente. O projeto não está com o readme atualizado
 ```
 ## Objetivo do Projeto
 
