@@ -3,14 +3,8 @@
 ## Descrição
 
 ```
-Estou tendo problemas para a instalação local do n8n
+Estou tendo problemas para a instalação local do n8n, até dia 31 corrijo corretamente.
 ```
-Aprenda na prática como criar um fluxo de automação inteligente combinando técnicas de RPA (Robotic Process Automation) com workflows de IA no N8N.
-
-Neste desafio, você vai construir um assistente de investimentos automatizado. O fluxo começa com a extração de dados de clientes em uma página web usando Python, passa pela orquestração de um workflow no N8N e termina com a geração de mensagens personalizadas para cada perfil de investidor.
-
-O projeto foi pensado para ser simples e acessível, mesmo para quem está dando os primeiros passos em Python e automação. A ideia é que você entenda o conceito de RPA de forma leve e aplique tudo em um cenário realista do mercado financeiro.
-
 ## Objetivo do Projeto
 
 Desenvolver um pipeline de automação que:
@@ -76,7 +70,7 @@ O projeto utiliza ferramentas gratuitas e acessíveis, organizadas conforme cada
 | Orquestração | N8N | Processar dados, cruzar perfis e gerar mensagens |
 | Geração com IA | Agente de IA no N8N | Criar mensagens personalizadas com LLM (desafio extra) |
 
-Além dessas, você pode usar IAs generativas como **Gemini**, **Claude** ou **ChatGPT** como copilotos para auxiliar na escrita de código e tirar dúvidas ao longo do desenvolvimento.
+IAs Generativas são permitidas.
 
 ## Roteiro do Desafio
 
@@ -127,10 +121,10 @@ Conecte o Agente de IA do N8N a um modelo como Gemini ou GPT para:
 
 ### MVP (Mínimo Viável)
 
-- [ ] Repositório forkado com o workflow N8N implementado
-- [ ] Workflow N8N exportado (`n8n/workflow.json`) com mensagens estáticas
-- [ ] Script de RPA integrado ao Webhook do N8N
-- [ ] Print ou vídeo demonstrando o fluxo funcionando de ponta a ponta
+- [X] Repositório forkado com o workflow N8N implementado
+- [X] Workflow N8N exportado (`n8n/workflow.json`) com mensagens estáticas
+- [X] Script de RPA integrado ao Webhook do N8N
+- [X] Print ou vídeo demonstrando o fluxo funcionando de ponta a ponta
 
 ### Desafio Completo
 
@@ -168,8 +162,3 @@ Conecte o Agente de IA do N8N a um modelo como Gemini ou GPT para:
 - [BeautifulSoup: Web Scraping com Python](https://realpython.com/beautiful-soup-web-scraper-python/)
 - [GitHub Pages: Guia Rápido](https://pages.github.com/)
 
----
-
-**Bons estudos e mãos à obra** 🚀
-
-Se tiver dúvidas, lembre-se: a melhor forma de aprender é experimentando. Erre, corrija e celebre cada pequena vitória no caminho.
